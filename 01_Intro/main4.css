@@ -1,0 +1,57 @@
+body{
+    border: 1px green solid;
+    width: 900px;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedorA{
+    border: 1px black solid;
+    width: 250px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-start;
+    justify-content: flex-start;
+}
+
+.fatherA{
+    width: 250px;
+    height: 150px;
+    border: 1px red solid;
+
+}
+
+
+.motherA{
+    width: 100px;
+    height: 100px;
+    border: 1px blue solid;
+}
+
+
+
+
+.contenedorB{
+    border: 1px black solid;
+    width: 500px;
+    height: 400px;
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.fatherB{
+    width: 100px;
+    height: 100px;
+    border: 1px red solid;
+
+}
+
+.motherB{
+    width: 100px;
+    height: 100px;
+    border: 1px red solid;
+}
+
